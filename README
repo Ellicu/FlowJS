@@ -1,0 +1,15 @@
+
+FlowJS is a library for creating declarative user interfaces for PWAs.
+
+The core library handles the components and rerenders only parts that have changed upon state changes in the application. 
+Every component is self contained and manages itself. This is the idea of FlowJS. To have a way to declare UI that is reactive,
+without all of the boilerplate and bs that comes with react or angular such as compiling from typescript to JS anyways, NPM packages 
+and the entire ecosystem around them. The ecosystem for building applications has become fully retarded, and im trying to change that. 
+Now all you need is to transpile the JSX files, which is not even needed in the first place. 
+It also is a way for web devs to create PWAs and reuse components they already have. This way we never have to write a button or input element twice
+
+
+
+
+
+This directory is all you need to start a FlowJS application. You just start writing components in the /components directory and you can include them in the Application.js file, which is your main entry point of the application. 
